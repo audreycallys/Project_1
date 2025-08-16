@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Midnights Album</h1>
+        <img src="midnights.jpeg" alt="Taylor Swift"width="400">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo magni necessitatibus vero est quo ex, blanditiis incidunt sequi itaque obcaecati a accusamus corrupti dolores totam sapiente repellat! Quisquam, voluptas!</p>
+        <button id="Midnights">Click Me</button>
+    </div>
+
+    <div class="card">
+        <h1>Folklore Album</h1>
+        <img src="folklore.jpeg" alt="Taylor Swift" width="400">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo magni necessitatibus vero est quo ex, blanditiis incidunt sequi itaque obcaecati a accusamus corrupti dolores totam sapiente repellat! Quisquam, voluptas!</p>
+        <button id="Folklore">Click Me</button>
+    </div>
+</div>
+
+<script>
+    let tombol = document.getElementById("Midnights");
+    tombol.addEventListener("click", function() {
+        alert("Kesukaan Japi");
+    });
+
+   let tombol1 = document.getElementById("Folklore");
+   tombol1.addEventListener("click", function() {
+       alert("Kesukaan Japi");
+   });
+</script>
+</body>
+</html>
